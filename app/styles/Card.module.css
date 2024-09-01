@@ -1,0 +1,10 @@
+.card {
+    @apply bg-white dark:bg-gray-800 shadow-md rounded-lg overflow-hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    @apply shadow-lg;
+    transform: scale(1.05);
+  }
+  
